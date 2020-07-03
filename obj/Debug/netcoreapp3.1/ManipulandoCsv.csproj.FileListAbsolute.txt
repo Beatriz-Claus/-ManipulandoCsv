@@ -1,0 +1,13 @@
+C:\Users\cristina dias\Desktop\ManipulandoCsv\bin\Debug\netcoreapp3.1\ManipulandoCsv.exe
+C:\Users\cristina dias\Desktop\ManipulandoCsv\bin\Debug\netcoreapp3.1\ManipulandoCsv.deps.json
+C:\Users\cristina dias\Desktop\ManipulandoCsv\bin\Debug\netcoreapp3.1\ManipulandoCsv.runtimeconfig.json
+C:\Users\cristina dias\Desktop\ManipulandoCsv\bin\Debug\netcoreapp3.1\ManipulandoCsv.runtimeconfig.dev.json
+C:\Users\cristina dias\Desktop\ManipulandoCsv\bin\Debug\netcoreapp3.1\ManipulandoCsv.dll
+C:\Users\cristina dias\Desktop\ManipulandoCsv\bin\Debug\netcoreapp3.1\ManipulandoCsv.pdb
+C:\Users\cristina dias\Desktop\ManipulandoCsv\obj\Debug\netcoreapp3.1\ManipulandoCsv.csprojAssemblyReference.cache
+C:\Users\cristina dias\Desktop\ManipulandoCsv\obj\Debug\netcoreapp3.1\ManipulandoCsv.csproj.CoreCompileInputs.cache
+C:\Users\cristina dias\Desktop\ManipulandoCsv\obj\Debug\netcoreapp3.1\ManipulandoCsv.AssemblyInfoInputs.cache
+C:\Users\cristina dias\Desktop\ManipulandoCsv\obj\Debug\netcoreapp3.1\ManipulandoCsv.AssemblyInfo.cs
+C:\Users\cristina dias\Desktop\ManipulandoCsv\obj\Debug\netcoreapp3.1\ManipulandoCsv.dll
+C:\Users\cristina dias\Desktop\ManipulandoCsv\obj\Debug\netcoreapp3.1\ManipulandoCsv.pdb
+C:\Users\cristina dias\Desktop\ManipulandoCsv\obj\Debug\netcoreapp3.1\ManipulandoCsv.genruntimeconfig.cache
