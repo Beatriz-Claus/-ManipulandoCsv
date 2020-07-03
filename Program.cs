@@ -11,6 +11,7 @@ namespace  ManipulandoCsv
             Produto p1 = new Produto();
             p1.Codigo = 1;
             p1.Nome = "LG";
+            p1.Nome = "Motorola";
             p1.Preco = 3900.99f;
 
              List<Produto> list = new List<Produto>();
@@ -23,6 +24,12 @@ namespace  ManipulandoCsv
             }
 
             p1.Cadastrar(p1);
+
+            p1.Remover("Motorola");
+            p1.Remover("LG");
+
+             List<Produto> lista = p1.Ler();
+            
         }
     }
 }

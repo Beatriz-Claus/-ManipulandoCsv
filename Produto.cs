@@ -51,10 +51,39 @@ namespace ManipulandoCsv
                 produtos.Add(prod);
             }
             return produtos;
-             }
+            }
+
+
+        public List<Produto> Filtrar(string _nome){
+            return Ler().FindAll(x => x.Nome == _nome);
+        }
+
+        public void Remover(string _termo){
+            List<string> linhas = new List<string>();
+
+            using(StreamReader arquivo = new StreamReader(PATH))
+            {
+                string linha;
+                while((linha = arquivo.ReadLine()) != null){
+                    linhas.Add(linha);
+                }
+                linhas.RemoveAll(z => z.Contains(_termo));
+            }
+            using(StreamWriter output = new StreamWriter(PATH))
+            {
+                foreach(string ln in linhas){
+                    output.Write(ln+"\n");
+                }
+            }
+
+        }
+
+
         public string SepararDado(string dados){
             return dados.Split("=")[1];
         }
+
+        
 
         private string PrepararLinha(Produto p){
             return $"codigo={p.Codigo};nome={p.Nome};preço={p.Preco}";
