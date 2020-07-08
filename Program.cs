@@ -25,11 +25,15 @@ namespace  ManipulandoCsv
 
             p1.Cadastrar(p1);
 
-            p1.Remover("Motorola");
-            p1.Remover("LG");
+           Produto alterado = new Produto();
+            alterado.Codigo = 2;
+            alterado.Nome = "Asus";
+            alterado.Preco = 2500.99f;
 
              List<Produto> lista = p1.Ler();
             
+
+            p1.Remover("LG");
         }
     }
 }
